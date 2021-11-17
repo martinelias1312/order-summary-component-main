@@ -81,7 +81,8 @@ html {
     margin: 0.3125em 0 0 0.625em;
 }
 
-.plan-text h4 {
+.plan-text h2 {
+    font-size: 1em;
     color: var(--Dark-blue);
     margin: 0 0 0.4em;
 }
