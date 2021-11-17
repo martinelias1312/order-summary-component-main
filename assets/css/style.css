@@ -40,7 +40,38 @@
     color: var(--Desaturated-blue);
 }
 
+/* Plan card */
+.plan-card {
+    background: rgb(235, 235, 235, 0.3);
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
 
+.plan-card img {
+    position: relative;
+    left: -6em;
+}
+
+.plan-text {
+    position: relative;
+    top: -4.375em;
+}
+
+.plan-text h4 {
+    margin: 0 0 0.4em;
+}
+
+.price {
+    color: var(--Desaturated-blue);
+    margin: 0;    
+}
+
+.btn-change {
+    color: var(--Bright-blue);
+    position: relative;
+    top: -6.25em;
+    right: -5.9375em;
+}
 
 /* Footer signature */
 .attribution { font-size: 0.6875em; text-align: center; }
