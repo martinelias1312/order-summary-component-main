@@ -1,0 +1,20 @@
+/* general */
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+  --Font-size-p: 16px;
+}
+
+/* Footer signature */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* mobile first workflow */
+@media screen and ( max-width: 375px ){
+    body {
+        background: var(--Pale-blue) url(/assets/img/pattern-background-mobile.svg) no-repeat;
+    }
+}
