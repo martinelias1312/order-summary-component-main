@@ -60,6 +60,7 @@ html {
 /* Order summary text */
 .text {
     font-size: 1em;
+    line-height: 1.5em;
     color: var(--Desaturated-blue);
 }
 
@@ -76,6 +77,7 @@ html {
 
 .plan-text {
     float: left;
+    margin: 0.3125em 0 0 0.625em;
 }
 
 .plan-text h4 {
@@ -90,6 +92,7 @@ html {
 .btn-change {
     color: var(--Bright-blue);
     float: left;
+    margin: 0.9375em 0 0 2.5em;
 }
 
 /* Button proceed */
@@ -101,10 +104,18 @@ html {
     border-radius: 1em;
 }
 
+.proceed {
+    margin: 2.5em 0 2.5em;
+}
+
 /* Button cancel */
 .btn-cancel {
     color: var(--Desaturated-blue);
     font-weight: 700;
+}
+
+.cancel {
+    padding-bottom: 1.5625em;
 }
 
 .btn-proceed, .btn-cancel {
