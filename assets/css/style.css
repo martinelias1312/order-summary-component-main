@@ -5,20 +5,42 @@
   --Very-pale-blue: hsl(225, 100%, 98%);
   --Desaturated-blue: hsl(224, 23%, 55%);
   --Dark-blue: hsl(223, 47%, 23%);
-  --Font-size-p: 1em;
 }
 
 /* Order Card */
 .order-card {
+    font-family: 'Red Hat Display', sans-serif;
     max-width: 20.3125em; /* 325px */
     height: max-content;
     margin: 5em auto;
+    background: #fff;
+    border-radius: 1em;
 }
 
 .order-card img {
     max-width: 20.3125em;
     border-radius: 1em 1em 0 0;
 }
+
+.order-summary {
+    max-width: 17em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.order-summary h1 {
+    margin-top: 1em;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+/* Order summary text */
+.text {
+    font-size: 1em;
+    color: var(--Desaturated-blue);
+}
+
+
 
 /* Footer signature */
 .attribution { font-size: 0.6875em; text-align: center; }
