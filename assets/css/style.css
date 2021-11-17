@@ -52,6 +52,7 @@ html {
 }
 
 .order-summary h1 {
+    color: var(--Dark-blue);
     margin-top: 1em;
     font-size: 1.5em;
     font-weight: 900;
@@ -81,6 +82,7 @@ html {
 }
 
 .plan-text h4 {
+    color: var(--Dark-blue);
     margin: 0 0 0.4em;
 }
 
@@ -90,6 +92,7 @@ html {
 }
 
 .btn-change {
+    font-weight: 700;
     color: var(--Bright-blue);
     float: left;
     margin: 0.9375em 0 0 2.5em;
@@ -99,6 +102,7 @@ html {
 .btn-proceed {
     background: var(--Bright-blue);
     color: #fff;
+    display: block;
     max-width: 17em;
     padding: 1em;
     border-radius: 1em;
@@ -122,11 +126,25 @@ html {
     text-decoration: none;
 }
 
+/* Hover button styling */
+.btn-change:hover {
+    text-decoration: none;
+    color: hsla(244, 49%, 44%, 0.705);
+}
+
+.btn-proceed:hover {
+    background: hsla(244, 49%, 44%, 0.705);
+}
+
+.btn-cancel:hover {
+    color: var(--Dark-blue);
+}
+
 /* Footer signature */
 .attribution { font-size: 0.6875em; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-/* mobile first workflow */
+/* Media queries, mobile first workflow */
 @media screen and ( max-width: 375px ) {
     body {
         background: var(--Pale-blue) url(/assets/img/pattern-background-mobile.svg) no-repeat;
