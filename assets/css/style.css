@@ -7,6 +7,29 @@
   --Dark-blue: hsl(223, 47%, 23%);
 }
 
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* clearfix */
+.group:before,
+.group:after {
+	content: " ";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	*zoom: 1;
+}
+
 /* Order Card */
 .order-card {
     font-family: 'Red Hat Display', sans-serif;
@@ -43,18 +66,16 @@
 /* Plan card */
 .plan-card {
     background: rgb(235, 235, 235, 0.3);
-    border-radius: 0.5em;
+    border-radius: 1em;
     padding: 0.5em;
 }
 
 .plan-card img {
-    position: relative;
-    left: -6em;
+    float: left;
 }
 
 .plan-text {
-    position: relative;
-    top: -4.375em;
+    float: left;
 }
 
 .plan-text h4 {
@@ -68,9 +89,26 @@
 
 .btn-change {
     color: var(--Bright-blue);
-    position: relative;
-    top: -6.25em;
-    right: -5.9375em;
+    float: left;
+}
+
+/* Button proceed */
+.btn-proceed {
+    background: var(--Bright-blue);
+    color: #fff;
+    max-width: 17em;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+/* Button cancel */
+.btn-cancel {
+    color: var(--Desaturated-blue);
+    font-weight: 700;
+}
+
+.btn-proceed, .btn-cancel {
+    text-decoration: none;
 }
 
 /* Footer signature */
