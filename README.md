@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/basics-of-colors-positioning-elements-KmBqnoQxA](https://www.frontendmentor.io/solutions/basics-of-colors-positioning-elements-KmBqnoQxA)
 - Live Site URL: [https://order-summary-component-main-khaki.vercel.app/](https://order-summary-component-main-khaki.vercel.app/)
 
 ## My process
