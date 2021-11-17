@@ -23,13 +23,13 @@ Users should be able to:
 
 ### Screenshot
 
-![assets\img\375px-Frontend-Mentor-Order-summary-card.png](assets\img\375px-Frontend-Mentor-Order-summary-card.png)
-![assets\img\1440px-Frontend-Mentor-Order-summary-card.png](assets\img\1440px-Frontend-Mentor-Order-summary-card.png)
+![assets\img\375px-Frontend-Mentor-Order-summary-card.png](assets/img/375px-Frontend-Mentor-Order-summary-card.png)
+![assets\img\1440px-Frontend-Mentor-Order-summary-card.png](assets/img/1440px-Frontend-Mentor-Order-summary-card.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://order-summary-component-main-khaki.vercel.app/](https://order-summary-component-main-khaki.vercel.app/)
 
 ## My process
 
