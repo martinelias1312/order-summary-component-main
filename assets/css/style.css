@@ -5,11 +5,23 @@
   --Very-pale-blue: hsl(225, 100%, 98%);
   --Desaturated-blue: hsl(224, 23%, 55%);
   --Dark-blue: hsl(223, 47%, 23%);
-  --Font-size-p: 16px;
+  --Font-size-p: 1em;
+}
+
+/* Order Card */
+.order-card {
+    max-width: 20.3125em; /* 325px */
+    height: max-content;
+    margin: 5em auto;
+}
+
+.order-card img {
+    max-width: 20.3125em;
+    border-radius: 1em 1em 0 0;
 }
 
 /* Footer signature */
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 0.6875em; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /* mobile first workflow */
