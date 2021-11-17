@@ -127,8 +127,14 @@ html {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /* mobile first workflow */
-@media screen and ( max-width: 375px ){
+@media screen and ( max-width: 375px ) {
     body {
         background: var(--Pale-blue) url(/assets/img/pattern-background-mobile.svg) no-repeat;
+    }
+}
+
+@media screen and ( min-width: 376px ) {
+    body {
+        background: var(--Pale-blue) url(/assets/img/pattern-background-desktop.svg) no-repeat;
     }
 }
