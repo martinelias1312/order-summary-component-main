@@ -155,5 +155,6 @@ html {
 @media screen and ( min-width: 376px ) {
     body {
         background: var(--Pale-blue) url(/assets/img/pattern-background-desktop.svg) no-repeat;
+        background-size: 100%;
     }
 }
